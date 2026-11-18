@@ -1,0 +1,15 @@
+.bg-success{
+    background-color: green;
+}
+
+.text-white{
+    color: white;
+}
+
+.bg-warning{
+    background-color: yellow;
+}
+
+.text-danger{
+    color: red;
+}

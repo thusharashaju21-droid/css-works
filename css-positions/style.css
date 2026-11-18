@@ -1,0 +1,32 @@
+.parent{
+    background-color: #8378c0;
+    width: 75%;
+    height: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: #57c9db;
+    border: 2px solid white;
+}
+
+.child:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.child:nth-child(3){
+    position: absolute;
+    bottom: 0;
+}
+
+.child:nth-child(4){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
