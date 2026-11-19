@@ -1,10 +1,18 @@
+body{
+    height: 100vh;
+}
+
 .parent{
     background-color: #8378c0;
-    width: 75%;
-    height: 400px;
+    width: 50%;
+    height: 300px;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
 }
 
 .child{
@@ -12,21 +20,30 @@
     height: 100px;
     background-color: #57c9db;
     border: 2px solid white;
+    
+}
+
+.child:nth-child(1){
+    position: absolute;
+    transform: translate(-50%,-50%);
 }
 
 .child:nth-child(2){
     position: absolute;
     top: 0;
     right: 0;
+    transform: translate(50%,-50%);
 }
 
 .child:nth-child(3){
     position: absolute;
     bottom: 0;
+    transform: translate(-50%,50%);
 }
 
 .child:nth-child(4){
     position: absolute;
     right: 0;
     bottom: 0;
+    transform: translate(50%,50%);
 }
