@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container{
+    width: 75%;
+    height: 400px;
+    background-color: rgb(52, 215, 215);
+    border: 1px solid rgb(72, 24, 24);
+    border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.flex-items{
+    width: 22%;
+    height: 200px;
+    background-color: rgb(178, 64, 136);
+    border: 1px solid rgb(61, 51, 81);
+    border-radius: 10px;
+}

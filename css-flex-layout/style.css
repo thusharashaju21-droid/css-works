@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+    background-color: rgb(20, 20, 0);
+}
+
+.main {
+    width: 85%;
+    height: 70%;
+    background-color: rgb(248, 92, 92);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.parent {
+    width: 25%;
+    height: 40%;
+    background-color: rgb(45, 9, 85);
+    position: relative;
+}
+
+.child {
+    width: 20%;
+    height: 30%;
+    background-color: rgb(243, 196, 86);
+    position: absolute;
+}
+
+.child:nth-child(1) {
+    top: -15%;
+    left: -10%;
+}
+
+.child:nth-child(2) {
+    top: -15%;
+    right: -10%;
+}
+
+.child:nth-child(3) {
+    bottom: -15%;
+    left: -10%;
+}
+
+.child:nth-child(4) {
+    bottom: -15%;
+    right: -10%;
+}
+
+.child:nth-child(5) {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
