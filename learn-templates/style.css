@@ -1,0 +1,96 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* navbar */
+
+.container-fluid{
+    /* border: 1px solid red; */
+    /* height: 68px; */
+    border-bottom: 1px solid rgba(216, 230, 226, 0.974);
+}
+
+.container{
+    width: 75%;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2%;
+}
+
+.nav-items-right{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.nav-items-right>a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.nav-items-right>a:hover{
+    text-decoration: underline;
+    color: rgb(223, 87, 221);
+}
+
+.navbar-brand>span{
+    color: rgb(131, 131, 245);
+}
+
+.nav-items-right>button{
+    border: none;
+    background-color: rgb(245, 217, 80);
+    color: white;
+    font-size: medium;
+    padding: 3%;
+    border-radius: 8px;
+    width: 22%;
+    height: 45px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-items-right>button:hover{
+    background-color: rgb(9, 9, 114);
+    transform: translateY(-5px);
+}
+
+/* navbar-end */
+
+/* banner */
+
+.banner{
+    background-color: rgba(48, 216, 177, 0.974);
+    width: 100%;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    line-height: 1.4;
+    border-bottom: 1px solid rgba(3, 36, 26, 0.974)
+}
+
+.banner-content>h1{
+    margin: 0;
+}
+
+.banner-content{
+    /* background-color: yellow; */
+    width: 25%;
+    position: absolute;
+    left: 12.5%;
+    font-size: larger;
+}
+
+.banner-content>p{
+    color: rgba(62, 21, 21, 0.382);
+    font-size: medium;
+}
+
+/* banner-end */
