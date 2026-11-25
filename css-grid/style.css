@@ -1,0 +1,15 @@
+.grid-container{
+    width: 75%;
+    height: 400px;
+    background-color: rgb(236, 157, 37);
+    display: grid;
+    padding: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}    
+
+.grid-item{
+    background-color: rgb(59, 224, 150);
+    border: 1px solid whitesmoke;
+}
