@@ -1,0 +1,255 @@
+/* body,grid setup */
+body{
+    background-color: #1c2119;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.grid-container{
+    /* border: 1px solid black; */
+    background-color: #f4f3ec;
+    width: 40%;
+    height: 95%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 12px;
+    padding: 12px;
+}
+
+.grid-items{
+    background-color: #788b55;
+    border: 1px solid #35452b;
+}
+
+/* body,grid setup */
+
+/* cover picture setup */
+
+.cover-picture{
+    background-color: #35452b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-picture>img{
+    width: 130px;
+    height: 80%;
+    border-radius: 50%;
+}
+
+/* cover picture setup */
+
+/* name setup */
+
+.name{
+    background-color: #35452b;
+    grid-row: 1/2;
+    grid-column: 2/4;
+    position: relative;
+}
+
+.name>form>fieldset{
+    /* background-color: aqua; */
+    color: white;
+    width: 85%;
+    height: 45%;
+    position: absolute;
+    left: 15px;
+    right: auto;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* name setup */
+
+/* profile setup */
+
+.profile{
+    grid-row: 2/5;
+    background-color: #788b55;
+    padding: 10px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.profile-describe{
+    /* background-color: white; */
+    font-size: small;
+    color: white;
+}
+
+.profile-describe>p{
+    line-height: 15px;
+}
+
+.contact{
+    /* background-color: beige; */
+    font-size: small;
+    color: white;
+}
+
+.contact>a{
+    line-height: 20px;
+    display: block;
+    color: white;
+    word-break: break-word;
+}
+
+.skill{
+    /* background-color: white; */
+    transform: translateY(0%);
+    margin-top: 15px;
+}
+
+.skill-heading{
+    background-color: #35452b;
+    color: white;
+    font-size: small;
+    height: 23px;
+}
+
+.skill-heading>p{
+    transform: translate(5%,25%);
+}
+
+.lists{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    line-height: 25px;
+}
+
+.list-left{
+    /* background-color: aqua; */
+    width: 50%;
+}
+
+.list-right{
+    /* background-color: brown; */
+    width: 50%;
+}
+
+/* profile setup */
+
+/* education setup */
+
+.education{
+    grid-column: 2/4;
+    /* background-color: aqua; */
+}
+
+.education-header{
+    background-color: #35452b;
+    color: white;
+    height: 25px;
+    transform: translateY(-35%);
+}
+
+.education-header>h5{
+    text-align: center;
+    transform: translateY(15%);
+}
+
+.education-content{
+    line-height: 2%;
+    font-size: 15px;
+}
+
+.education-content>h5{
+    text-align: center;
+}
+
+.education-content>p{
+    text-align: center;
+}
+
+/* education setup */
+
+/* work experience setup */
+
+.work-experience{
+    grid-column: 2/4;
+    /* background-color: aqua; */
+}
+
+.work-header{
+    background-color: #35452b;
+    color: white;
+    height: 25px;
+    transform: translateY(-40px);
+}
+
+.work-header>h5{
+   text-align: center;
+   transform: translateY(15%);
+}
+
+.work-content{
+    /* background-color: azure; */
+    line-height: 5px;
+    transform: translateY(-40px);
+    font-size: 15px;
+}
+
+/* work experience setup */
+
+/* certificates setup */
+
+.certificates{
+    grid-column: 2/4;
+    /* background-color: aqua; */
+    transform: translateY(-50px);
+}
+
+.certificates-header{
+    background-color: #35452b;
+    color: white;
+    height: 25px;
+    transform: translateY(-55%);    
+}
+
+.certificates-header>h5{
+   text-align: center;
+   transform: translateY(15%);
+}
+
+.certificates-content-top{
+    /* background-color: white; */
+    transform: translateY(-35%);
+    line-height: 3%;
+    font-size: 15px;
+}
+
+.certificates-content-top>h5{
+    text-align: center;
+}
+
+.certificates-content-top>p{
+    text-align: center;
+    transform: translateY(-5px);
+}
+
+.certificates-content-bottom{
+    /* background-color: aquamarine; */
+    transform: translateY(-35%);
+    line-height: 3%;
+    font-size: 15px;
+}
+
+.certificates-content-bottom>h5{
+    text-align: center;
+}
+
+.certificates-content-bottom>p{
+    text-align: center;
+}
+
+/* certificates setup */
