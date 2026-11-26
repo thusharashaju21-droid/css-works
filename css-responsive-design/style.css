@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+    color: black;
+
+}
+h2{
+    display: none;
+}
+@media (max-width:300px) {
+    body{
+        background-color: black;
+        color: aquamarine;
+    }
+    h2{
+        display: block;
+    }
+    h1{
+        display: none;
+    }
+}

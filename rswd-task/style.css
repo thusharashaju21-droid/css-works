@@ -1,0 +1,24 @@
+
+.grid-container{
+    background-color: rgb(242, 173, 83);
+    width: 75%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.grid-items{
+    background-color: rgb(201, 232, 66);
+    border: 1px solid black;
+}
+
+@media (max-width:300px) {
+
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+}
